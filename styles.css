@@ -1,0 +1,128 @@
+body {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 50%;
+}
+
+.about {
+    text-align: left;
+    width: 50%;
+    max-width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ratings {
+    width: 50%;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating-box {
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.rating-box:nth-child(1) {
+    margin-left: 20px;
+}
+
+.rating-box:nth-child(2) {
+    margin-left: 60px;
+}
+
+.rating-box:nth-child(3) {
+    margin-left: 100px;
+}
+
+.stars {
+    margin: 0 20px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.review-box {
+    width: 30%;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.review-box:nth-child(2) {
+    margin-top: 40px;
+}
+
+.review-box:nth-child(3) {
+    margin-top: 80px;
+}
+
+.buyer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.buyer-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+h1,
+h2 {
+    color: hsl(300, 43%, 22%);
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1em;
+}
